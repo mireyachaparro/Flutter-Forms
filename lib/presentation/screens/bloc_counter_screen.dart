@@ -9,7 +9,7 @@ class BlocCounterScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Bloc Counter'),
         actions: [
-          IconButton(onPressed: () => {}, icon: Icon(Icons.refresh_outlined))
+          IconButton(onPressed: () => {}, icon: const Icon(Icons.refresh_outlined))
         ],
       ),
       body: Center(
